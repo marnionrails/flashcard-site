@@ -1,8 +1,31 @@
-.initially-showing {
+* {
+  box-sizing: border-box;
+}
+
+.back, .front {
+  width: fit-content;
+  block-size: fit-content;
+  word-wrap: break-word;
+  font-size: 70%;
+}
+
+.back {
   display: none;
 }
 
-.clickable {
-  cursor: pointer;
-  color: red;
+.front {
+  background-color: rgb(199, 220, 228);
 }
+
+.card {
+  width: 50%;
+  float: left;
+  height: 200px;
+  margin: 10px;
+}
+
+.card p {
+  text-align: center;
+  font-size: 2em;
+}
+
